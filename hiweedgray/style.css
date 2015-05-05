@@ -1,0 +1,140 @@
+body {background-color: #fcfcfc; color: #383737; margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; font-size: 12px; }
+table {width: 100%; margin: 0; padding: 0;}
+table td {padding: 0; border-width: 0; vertical-align: top;}
+th {vertical-align : middle; }
+tr {vertical-align : middle;}
+a {text-decoration: none; color: #8E2004; font-size: 12px; }
+a:hover {background-color: #F8F2D2; padding: 0px 0px 0px 0px; color: #3F3F3F; }
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; }
+/* 中间大标题条目，比如新闻 */
+.item { border: 1px solid #777777; /* 边框颜色 */
+width: 99%; /* 表格宽度 */
+margin-left: 2px; /* 表格左边留的空隙 */
+background-color: #FFFFFF; /* 背景为白色 */
+padding-left: 0px; /* 内部文本左边留的空隙 */
+}
+/* 中间大标题的标题栏，比如新闻 */
+.itemHead {padding: 2px; /* 高度，文字顶部和底部留的空隙 */
+background-color: #777777; /* 背景颜色 */
+color: FFFFFF; /* 文字颜色 */
+padding-left: 5px; /* 文字左边留的间隙 */
+font-size: 18px; /* 文字大小 */ 
+}
+/* 中间大标题标题栏下面紧接着的那一行，比方“发表者 hiweed 于 2004-02-25 07:16:02 (2 次阅读) ” */
+.itemInfo {text-align: left; /* 文字左对齐 */
+padding: 2px; /* 高度，文字顶部和底部留的空隙 */
+background-color: #efefef; /* 背景色 */
+} 
+.itemTitle a {font-size: 15px; font-weight: bold; font-variant: small-caps; color: #FFFFFF;/* 新闻标题为白色 */ background-color: transparent;}
+.itemTitle a:hover {font-size: 15px; font-weight: bold; font-variant: small-caps; color: #3F3F3F; background-color: transparent; background: #FFD700; }
+.itemPoster {font-size: 12px; font-style: normal; font-weight: bold; }
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em; background-color: White; font-size: 12px; }
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: left; padding: 3px; background-color: #efefef; font-size: 11px; }
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 11px; text-align: left; font-weight: bold; }
+td#item a:hover{ background-color: #FFD700; padding: 0px 0px 0px 0px; font-weight: bold; color: #3F3F3F; } 
+td#leftcolumn {width: 120px; font-size: 12px; border-right: 1px solid #777777; }
+td#leftcolumn th { color: #3F3F3F; vertical-align: middle; border-right: solid #7E7E7E; padding-right: 5px;}
+/* 左面区块的表头 */
+td#leftcolumn div.blockTitle 
+{color: #383737; 
+font-weight: bold; 
+border-top: solid #7E7E7E; 
+border-bottom: thin solid #7E7E7E; 
+padding-left: 5px; 
+text-align: center; 
+padding: 10px 0px 0px 0px; /* 上、右、下、左 分别留的空隙大小*/
+}
+td#leftcolumn div.blockContent { vertical-align: middle; }
+td#centercolumn {font-size: 11px; }
+/* 中间-居中的区块 */
+td#centerCcolumn {padding: 0px 0px 0px 0px; /* 上、右、下、左 分别留的空隙大小*/
+font-size: 12px; /* 字号大小 */
+font-weight: bold; /* 粗体 */
+} 
+td#centerCcolumn legend.blockTitle {}
+td#centerCcolumn div.blockContent {border-left: 1px solid #cccccc; font-size: 12px; font-weight: normal; border-top-width: thin; border-top-style: solid; border-top-color: #F4D47B;}
+td#centerCcolumn td {padding: 1px 3px;}
+/* 中间的左面区块 */
+td#centerLcolumn {width: 50%; /* 宽度50% */
+padding: 0px 0px 0px 0px;
+font-size: 11px; font-weight: bold; 
+}
+td#centerLcolumn legend.blockTitle {padding: 3px;font-size: 12px;}
+td#centerLcolumn div.blockContent {font-size: 10px; font-weight: normal; padding: 3px; border-top-width: thin; border-top-style: solid; border-top-color: #F4D47B;}
+td#centerRcolumn {width: 50%; padding: 0px 0px 0px 0px; font-size: 11px; font-weight: bold; margin-left: 10px; }
+td#centerRcolumn legend.blockTitle {padding: 3px; font-size: 12px;}
+td#centerRcolumn div.blockContent {font-size: 12px; font-weight: normal; border-top-width: thin; border-top-style: solid;	border-top-color: #F4D47B; padding: 3px; }
+div#content {text-align: left; width: 100%; background-color: White; font-size: 13px;}
+td#rightcolumn {width: 120px; font-size: 12px; border-left: 1px solid #777777; }
+td#rightcolumn th { color: #3F3F3F; vertical-align: middle; border-right: solid #7E7E7E; padding-left: 5px;}
+td#rightcolumn div.blockTitle {color: #383737; font-weight: bold; border-top: solid #7E7E7E; border-bottom: thin solid #7E7E7E; padding-left: 5px; text-align: center; padding: 10px 0px 0px 0px; /* 上、右、下、左 分别留的空隙大小*/
+}
+td#rightcolumn div.blockContent { }
+td#rightcolumn a {font-size: 11px;}
+td#rightcolumn a:hover {background-color: #F8F2D2; color: #3F3F3F; }
+tr#footerbar {text-align: center; background: #F4D47B; border-top-width: 2px; }
+td#usermenu a {padding-bottom: 1px; padding-top: 1px; font-size: 12px; }
+td#mainmenu a.menuTop {padding-left: 9px; font-size: 12px; padding-bottom: 1px; padding-top: 1px; font-weight: bold; }
+td#mainmenu a.menuMain {padding-left: 9px; font-size: 12px; padding-bottom: 1px; padding-top: 1px; font-weight: bold; }
+td#mainmenu a.menuSub {padding-left: 25px; font-size: 12px; font-weight: normal;}
+td#mainmenu a.menuSub:hover {background-color: #F8F2D2; padding: 0px 0px 0px 25px; color: #3F3F3F; }
+td#mainmenu a {padding-bottom: 0px;	padding-top: 0px; padding: 0px 0px 0px 10px; }
+.outer {font-size: 13px; background-color: #777777; color: #000000 ; width: 100%}
+.head { padding: 1px; font-weight: bold; font-size: 12px; background-color: #E4E4E4; }
+.even {padding: 5px; background-color: #F7F6D2; padding-bottom: 3px; padding-top: 3px; color: #3F3F3F; vertical-align: middle; }
+.odd {padding: 5px; background-color: White; padding-bottom: 3px; padding-top: 3px; color: #3F3F3F; vertical-align: middle; border-bottom-color: #A4A4A4; border-bottom-style: solid; border-bottom-width: 1px;}
+.odd a { text-decoration: underline; }
+.foot {background-color: #D3D3D3; padding: 5px; font-weight: bold; color: #3F3F3F; }
+tr.even td {padding: 5px; font-family: "MS Sans Serif", Geneva, sans-serif; font-size: 10px;	font-style: normal; font-weight: normal; }
+tr.odd td {padding: 5px; font-family: "MS Sans Serif", Geneva, sans-serif; font-size: 10px; font-style: normal; font-weight: normal;}
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #7B869A; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #7B869A; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+/* Site Specific */
+.userbar {font-size: 12px; font-weight: bold; color: White;	background-color: #3F3F3F; }
+.userbar a {text-decoration: underline; }
+.userbar a:hover {background-color: #FFD700; color: #3F3F3F; padding: 0px 0px 0px 0px; }
+.userlogin{ font-size: 11px; font-weight: bold; color: #3F3F3F; width: 90px; }
+td#leftheader {font-size: 12px; font-weight: bold; color: #3F3F3F;	text-decoration: none; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #3F3F3F; padding-top: 15px; padding-left: 5px; }
+td#centerheader {background-color: #F4D47B;	border-bottom-width: 1px;	border-bottom-style: solid; border-bottom-color: #383737;}
+td#rightheader {font-size: 12px; font-weight: bold; color: #3F3F3F;	text-decoration: none; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #3F3F3F; padding-right: 5px; padding-top: 10px; }
+/* newbb */
+#newbb {text-align: left; }
+#newbbnav {text-align: left; padding: 0px 0px 0px 5px; border: 1px solid #3F3F3F; width: 95%; }
+#newbbnav a { text-decoration: underline; font-weight: bold; }
+#newbbnav th {text-align: left; background-color: #F4D47B; color: #3F3F3F; padding-bottom: 3px; padding-top: 3px; border-bottom-color: #3F3F3F; border-bottom-style: solid; border-bottom-width: 1px; }
+/* 新贴子区块的表头 */
+#newbbnav td {text-align: left; background-color: #F1F1F1; color: #ffffff; padding: 0px 0px 0px 5px; padding-top: 3px; padding-bottom: 3px; border-right-width: 1px; }
+#newbbcontent {text-align: left; border: 1px solid #3F3F3F; width: 95%; }
+#newbbcontent a { text-decoration: underline; }
+#newbbcontent th {text-align: left; background-color: #3F3F3F; color: White; padding-left: 5px; border-bottom-style: solid; border-bottom-width: 1px; padding-bottom: 3px; }
+#newbbcontent th a {text-align: left; background-color: #3F3F3F; color: White; text-decoration: underline; }
+#newbbcontent th a:hover {text-align: left; background-color: #FFD700; color: #3F3F3F; }
+#newbbcontent td {text-align: left; padding: 0px 0px 0px 5px; border-bottom-color: #777777; border-bottom-style: solid; border-bottom-width: 1px; padding-bottom: 3px; padding-top: 3px; border-right-color: #777777; border-right-style: solid; border-right-width: 1px; }
+#newbbfooter {text-align: left; width: 95%; border: 1px solid #3F3F3F; background-color: #F1F1F1; }
+.navinput {width:60px; height:9px; font-size: 9px; border:1px solid #000000; background-color: #E7E7E7; padding:2px;}
